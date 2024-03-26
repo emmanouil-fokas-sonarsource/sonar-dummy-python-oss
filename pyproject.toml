@@ -3,10 +3,10 @@ requires = ["poetry-core"]
 build-backend = "poetry.core.masonry.api"
 
 [tool.poetry]
-name = "sonar_dummy_python_oss"
+name = "manos_dummy_python_oss"
 version = "0.0.1"
 authors = [
-  "Jayadeep Kinavoor Madam <jayadeep.kinavoormadam@sonarsource.com>",
+  "Emmanouil Fokas <emmanouil.fokas@sonarsource.com>",
 ]
 description = "A sample python project used for testing purposes"
 readme = "README.md"
@@ -29,11 +29,11 @@ classifiers = [
   "Programming Language :: Python :: 3.12",
   "Topic :: Software Development :: Quality Assurance",
 ]
-packages = [{ include = "sonar_dummy_python_oss", from = "src" }]
+packages = [{ include = "manos_dummy_python_oss", from = "src" }]
 
 [tool.poetry.dependencies]
 python = ">=3.8"
 
 [project.urls]
-Homepage = "https://github.com/SonarSource/ssonar-dummy-python-oss"
-Repository = "https://github.com/SonarSource/sonar-dummy-python-oss"
+Homepage = "https://github.com/emmanouil-fokas-sonarsource/sonar-dummy-python-oss"
+Repository = "https://github.com/emmanouil-fokas-sonarsource/sonar-dummy-python-oss"

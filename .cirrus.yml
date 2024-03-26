@@ -54,6 +54,6 @@ promote_task:
     BURGR_URL: VAULT[development/kv/data/burgr data.url]
     BURGR_USERNAME: VAULT[development/kv/data/burgr data.cirrus_username]
     BURGR_PASSWORD: VAULT[development/kv/data/burgr data.cirrus_password]
-    ARTIFACTS: :sonar_dummy_python_oss:tar.gz,:sonar_dummy_python_oss:whl:py3-none-any
+    ARTIFACTS: :manos_dummy_python_oss:tar.gz,:manos_dummy_python_oss:whl:py3-none-any
   <<: *POETRY_TEMPLATE
   promote_script: cirrus_promote
